@@ -3,7 +3,7 @@ new_array = []
 def square_array(array)
   count = 0
   while count < array.length do
-    array[count] = array[count] ** 2
+    array[count] ** 2
     new_array.map(array[count])
     count += 1
   end 
