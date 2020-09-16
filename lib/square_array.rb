@@ -7,7 +7,7 @@ def square_array(array)
     new_array.map(array[count])
     count += 1
   end 
-  return fnew_array
+  return new_array
 end
 
 
